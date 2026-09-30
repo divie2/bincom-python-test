@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS color_frequencies (
+    id SERIAL PRIMARY KEY,
+    color VARCHAR(50) UNIQUE NOT NULL,
+    frequency INTEGER NOT NULL
+);
